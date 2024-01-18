@@ -11,20 +11,20 @@
 .centrar {
     text-align: center;
 }
-
+.wwww {
+    width: 33.3%;
+}
 h1 {
     color: var(--colorPrimario);
 }
 h2 {
     color: var(--colorSecundario);
 }
-.contImg {
-    width: 280px;
-}
 .imgYo {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }
 .parentTable {
     width: 90%;
@@ -47,11 +47,14 @@ h2 {
 }
 
 .tableSkills {
-    width: 80%;
     border-collapse: collapse;
     margin: auto;
 }
 
 .logo {
     width: 50px;
+}
+
+.pad {
+    padding: 10px;
 }
