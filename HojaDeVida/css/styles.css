@@ -1,0 +1,57 @@
+:root {
+    --colorPrimario: #49B35B;
+    --colorSecundario: #4E8056;
+    --colorTerciario: #31E650;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centrar {
+    text-align: center;
+}
+
+h1 {
+    color: var(--colorPrimario);
+}
+h2 {
+    color: var(--colorSecundario);
+}
+.contImg {
+    width: 280px;
+}
+.imgYo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.parentTable {
+    width: 90%;
+    margin: auto;
+}
+
+.parentTable {
+    border-spacing: 10px;
+}
+
+.parentTable, .thParent, .tdParent {
+    border: 5px solid var(--colorSecundario);
+}
+.divStyle {
+    border: 5px solid var(--colorSecundario);
+}
+
+.bef {
+    font-weight: bold;
+}
+
+.tableSkills {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.logo {
+    width: 50px;
+}
